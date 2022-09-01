@@ -37,7 +37,16 @@ li#menu {
     position: relative;
     display: inline-block;
     padding: 10px;
+    left: 300px;    
+}
+
+li#meio {
+    position: relative;
+    display: inline-block;
+    padding: 0px 10px;
     left: 300px;
+    border-left: 1px #606060 solid;
+    border-right: 1px #606060 solid;
 }
 
 h2 {
