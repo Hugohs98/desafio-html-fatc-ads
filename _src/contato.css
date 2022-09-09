@@ -15,7 +15,7 @@ div#interface {
 }
 
 header {
-    width: 1400px;
+    width: 900px;
     position: static;
     align: center;
 }
@@ -23,7 +23,7 @@ header {
 img#logo {
     position: relative;
     top: 30px;
-    right: 600px;
+    right: 330px;
 }
 
 ul#menu {
@@ -38,6 +38,7 @@ li#menu {
     display: inline-block;
     padding: 10px;
     left: 300px;
+    text-decoration: none;
 }
 
 li#meio {
