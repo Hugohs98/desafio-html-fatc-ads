@@ -49,6 +49,14 @@ li#meio {
     border-right: 1px #606060 solid;
 }
 
+li#meio1 {
+    position: relative;
+    display: inline-block;
+    padding: 0px 10px;
+    left: 300px;
+    border-right: 1px #606060 solid;
+}
+
 img#capa {
     position: relative;
     align-self: center;

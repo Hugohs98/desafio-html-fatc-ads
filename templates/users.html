@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <linl rel="stylesheet" href="../static/_src/reset.css"/>
+    <link rel="stylesheet" href="../static/_src/contato.css"/>
+</head>
+<body>
+    <div id="interface">
+        <div class="app_background">  
+            <header>
+                <img id="logo" src="../static/_img/logo.png">
+                    <ul id="menu">
+                        <li id="menu"><a href="/">Home</a></li>
+                        <li id="meio"><a href="/quem_somos">Quem somos</a></li>
+                        <li id="meio1"><a href="/contato">Contato</a></li>
+                        <li id="menu"><a href="/users">Users</a></li>
+                    </ul>
+            </header>
+            <br>
+            <br>
+            <br>
+            <body>
+                <table id="users" class="display">
+                    <thead>
+                        
+                        <tr>
+                            <th>E-mail</th>
+                            <th>Assunto</th>
+                            <th>Descrição</th>
+                
+                        </tr>
+                    </thead>
+                    
+                    {% for contato in userDetails %}
+                    
+                    <tbody>
+                        <tr>
+                            <td>{{contato[0]}}</td>
+                            <td>{{contato[1]}}</td>
+                            <td>{{contato[2]}}</td>
+                        </tr>
+                    </tbody>
+                   
+                
+                    {% endfor %}
+            
+                </table>
+            </body>
+            <h4>Todos os direitos reservados</h4>
+        </div>
+    </div>            
+</body>
+</html>    
