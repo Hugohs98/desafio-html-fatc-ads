@@ -8,7 +8,7 @@ body {
 
 div#interface {
     width: 900px;
-    margin: -10px auto 0px auto;
+    margin: -6px auto 0px auto;
     padding: 10px;
     position: relative;
     text-align: center;
@@ -22,15 +22,15 @@ header {
 
 img#logo {
     position: relative;
-    top: 30px;
+    top: 20px;
     right: 330px;
 }
 
 ul {
     list-style: none;
     position: absolute;
-    top: 25px;
-    right: 330px;
+    top: 35px;
+    right: 310px;
 }
 
 li {
@@ -63,10 +63,10 @@ img#capa {
     top: 43px;
 }
 
-.info h2 {
+.info h3 {
     position: relative;
     text-align: justify;
-    top: 35px;
+    top: 45px;
     left: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -74,13 +74,13 @@ img#capa {
 .info p {
     position: relative;
     text-align: justify;
-    top: 25px;
+    top: 45px;
     left: 10px;
     width: 880px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h4 {
+h5 {
     position: relative;
     text-align: center;
     top: 40px;

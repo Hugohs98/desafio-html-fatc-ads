@@ -4,7 +4,7 @@ body {
     background-color: white;
     margin: auto;
     background-image: url(../_img/fundo2.png);
-    align-items: center;
+
 }
 
 div#interface {
@@ -18,20 +18,20 @@ div#interface {
 header {
     width: 900px;
     position: static;
-    align: center;
+    align-items: center;
 }
 
 img#logo {
     position: relative;
-    top: 30px;
+    top: 25px;
     right: 330px;
 }
 
 ul#menu {
     list-style: none;
     position: absolute;
-    top: 25px;
-    right: 330px;
+    top: 40px;
+    right: 310px;
 }
 
 li#menu {
@@ -76,7 +76,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h4 {
+h5 {
     position: relative;
     text-align: center;
     top: 40px;
